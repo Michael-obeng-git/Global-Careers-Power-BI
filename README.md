@@ -86,32 +86,32 @@ each learner.
 
 ### Filters:
 Slicers will allow users to explore data specific to:
-• Cohort: Filter by individual cohorts to monitor specific groups of learners.
-• Track: Filter by track (Power BI or AWS Cloud).
-• Month: Filter metrics by the month within the 10-week program.
-• Week: Filter by specific weeks to analyze performance trends.
-• Learner Status: Filter by learners who are Certified or Not Certified.
-• Program Status: Filter by program completion status (Ongoing or Completed).
+- Cohort: Filter by individual cohorts to monitor specific groups of learners.
+- Track: Filter by track (Power BI or AWS Cloud).
+- Month: Filter metrics by the month within the 10-week program.
+- Week: Filter by specific weeks to analyze performance trends.
+- Learner Status: Filter by learners who are Certified or Not Certified.
+- Program Status: Filter by program completion status (Ongoing or Completed).
 
 ## Additional Instructions:
 
 1. Class Attendance:
-o Condition: A learner will be marked as "attended" if they have spent more
+- Condition: A learner will be marked as "attended" if they have spent more
 than 30 minutes in a Zoom session.
-o This condition will apply to all attendance calculations in both the
+- This condition will apply to all attendance calculations in both the
 Overall Performance Metrics and Detailed Learner Insights.
 
 2. Data Preparation:
 o Ensure daily attendance records, participation records, lab and quiz grades,
 and learner status (graduation and certification) are structured and cleaned
 before importing into Power BI.
-o Use the daily attendance directories to track attendance compliance with
+- Use the daily attendance directories to track attendance compliance with
 the condition of “attended” being over 30 minutes per session.
-o Aggregate weekly lab and quiz scores to provide averages and totals for
+- Aggregate weekly lab and quiz scores to provide averages and totals for
 both detailed learner insights and cohort-level performance analysis.
 
 3. Modeling and DAX:
-o Use DAX formulas to calculate averages, attendance percentages, and
+- Use DAX formulas to calculate averages, attendance percentages, and
 track certification and graduation rates dynamically.
-o Ensure relationships between attendance, participation, labs, quizzes,
+- Ensure relationships between attendance, participation, labs, quizzes,
 and learner status tables are properly defined.
